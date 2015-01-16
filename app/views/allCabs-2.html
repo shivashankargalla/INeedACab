@@ -1,0 +1,63 @@
+<div>
+
+    <div class="tabbable tabs-left">
+        <ul class="nav nav-tabs nav-justified navtabs-margin">
+            <li><a href="#/allCabs/1"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a></li>
+            <li class="active"><a href="#easycabs" data-toggle="tab" ng-click="$event.preventDefault();">Easy Cabs</a></li>
+            <li><a href="#mygreencabs" data-toggle="tab" ng-click="$event.preventDefault();">My Green Cabs</a></li>
+            <li><a href="#dialplz" data-toggle="tab" ng-click="$event.preventDefault();">Dial Plz</a></li>
+            <li><a href="#pushpakcabs" data-toggle="tab" ng-click="$event.preventDefault();">Pushpak Cabs</a></li>
+            <li><a href="#celcabs" data-toggle="tab" ng-click="$event.preventDefault();">Cel Cabs</a></li>
+            <li><a href="#/allCabs/3">Next <i class="glyphicon glyphicon-chevron-right"></i></a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="easycabs" class="tab-pane active">
+                <div class="well clearfix">
+                    <h4>easycabs</h4>
+                    <div class="col-sm-12">
+                        <span class="col-sm-6">Website</span>
+                        <a  class="col-sm-6" href="{{cabsData.easycabs.url}}">{{cabsData.easycabs.url}}</a>
+                    </div>
+                </div>
+            </div>
+            <div id="mygreencabs" class="tab-pane">
+                <div class="well clearfix">
+                    <h4>mygreencabs</h4>
+                    <div class="col-sm-12">
+                        <span class="col-sm-6">Website</span>
+                        <a  class="col-sm-6" href="{{cabsData.mygreencabs.url}}">{{cabsData.mygreencabs.url}}</a>
+                    </div>
+                </div>
+            </div>
+            <div id="dialplz" class="tab-pane">
+                <div class="well clearfix">
+                    <h4>dialplz</h4>
+                    <div class="col-sm-12">
+                        <span class="col-sm-6">Website</span>
+                        <a  class="col-sm-6" href="{{cabsData.dialplz.url}}">{{cabsData.dialplz.url}}</a>
+                    </div>
+                </div>
+            </div>
+            <div id="pushpakcabs" class="tab-pane">
+                <div class="well clearfix">
+                    <h4>pushpakcabs</h4>
+                    <div class="col-sm-12">
+                        <span class="col-sm-6">Website</span>
+                        <a  class="col-sm-6" href="{{cabsData.pushpakcabs.url}}">{{cabsData.pushpakcabs.url}}</a>
+                    </div>
+                </div>
+            </div>
+            <div id="celcabs" class="tab-pane">
+                <div class="well clearfix">
+                    <h4>celcabs</h4>
+                    <div class="col-sm-12">
+                        <span class="col-sm-6">Website</span>
+                        <a  class="col-sm-6" href="{{cabsData.celcabs.url}}">{{cabsData.celcabs.url}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

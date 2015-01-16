@@ -1,0 +1,53 @@
+{
+    "cabs": {
+        "yellowcabs": {
+            "url": "http://www.yellowcabshyd.com/"
+        },
+        "orangecabs": {
+            "url": "http://www.orangecabs.com/"
+        },
+        "dotcabs": {
+            "url": "http://dotcabs.com/"
+        },
+        "skycabs": {
+            "url": "http://skycabs.in/"
+        },
+        "merucabs": {
+            "url": "http://www.merucabs.com/"
+        },
+        "hydcabs": {
+            "url": "http://www.hydcabs.com/"
+        },
+        "whitecabs": {
+            "url": "http://www.whitecabs.in/"
+        },
+        "easycabs": {
+            "url": "http://www.easycabs.com/"
+        },
+        "mygreencabs": {
+            "url": "http://www.mygreencabs.com/"
+        },
+        "dialplz": {
+            "url": "http://dialplz.com/"
+        },
+        "pushpakcabs": {
+            "url": "http://pushpakcabs.in/"
+        },
+        "celcabs": {
+            "url": "http://www.celcabs.com/"
+        },
+        "fasttrackcalltaxi": {
+            "url": "http://www.fasttrackcalltaxi.in/"
+        },
+        "lotuscabs": {
+            "url": "http://lotuscabsandtravels.com/"
+        },
+        "olacabs": {
+            "url": "http://www.olacabs.com/"
+        },
+	"sigmacabs": {
+            "url": "http://www.sigmacabs.com/"
+        }
+    }
+
+}

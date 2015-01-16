@@ -1,0 +1,43 @@
+<div>
+
+    <div class="tabbable tabs-left">
+        <ul class="nav nav-tabs nav-justified navtabs-margin">
+            <li><a href="#/allCabs/2"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a></li>
+            <li class="active"><a href="#fasttrackcalltaxi" data-toggle="tab" ng-click="$event.preventDefault();">Fasttrack Call Taxi</a></li>
+            <li><a href="#lotuscabs" data-toggle="tab" ng-click="$event.preventDefault();">Lotus Cabs</a></li>
+            <li><a href="#olacabs" data-toggle="tab" ng-click="$event.preventDefault();">Ola Cabs</a></li>
+            <li class="disabled"><a href="#" ng-click="$event.preventDefault();">Next <i class="glyphicon glyphicon-chevron-right"></i></a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="fasttrackcalltaxi" class="tab-pane  active">
+                <div class="well clearfix">
+                    <h4>fasttrackcalltaxi</h4>
+                    <div class="col-sm-12">
+                        <span class="col-sm-6">Website</span>
+                        <a  class="col-sm-6" href="{{cabsData.fasttrackcalltaxi.url}}">{{cabsData.fasttrackcalltaxi.url}}</a>
+                    </div>
+                </div>
+            </div>
+            <div id="lotuscabs" class="tab-pane">
+                <div class="well clearfix">
+                    <h4>lotuscabs</h4>
+                    <div class="col-sm-12">
+                        <span class="col-sm-6">Website</span>
+                        <a  class="col-sm-6" href="{{cabsData.lotuscabs.url}}">{{cabsData.lotuscabs.url}}</a>
+                    </div>
+                </div>
+            </div>
+            <div id="olacabs" class="tab-pane">
+                <div class="well clearfix">
+                    <h4>olacabs</h4>
+                    <div class="col-sm-12">
+                        <span class="col-sm-6">Website</span>
+                        <a  class="col-sm-6" href="{{cabsData.olacabs.url}}">{{cabsData.olacabs.url}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
